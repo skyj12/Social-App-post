@@ -1,0 +1,9 @@
+<div>
+    <h1>My Thoughts</h1>
+    <postform add-post="$ctrl.addPost(newPost);">
+    </postform>
+    <section class="allposts">
+      <post  class="posted" ng-repeat="post in $ctrl.allPosts" post="post">
+      </post> 
+    </section>
+  </div>

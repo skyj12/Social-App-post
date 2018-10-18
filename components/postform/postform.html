@@ -1,0 +1,8 @@
+<button class="new" ng-click="$ctrl.showForm();">My Thoughts</button>
+<form class="newform" ng-submit="$ctrl.addPost({ newPost: $ctrl.newPost}); $ctrl.closeForm();" ng-show="$ctrl.visible">
+  <p class="close" ng-click="$ctrl.closeForm();">Close</p>
+  <h3>Title</h3>
+  <input class="title" type="text" placeholder="Post Title" ng-model="$ctrl.newPost.title">
+  <h3>Thoughts</h3><textarea class="post" placeholder="Type Here" expand-on-focus ng-model="$ctrl.newPost.body"></textarea>
+  <button class="add">Add Post</button>
+  </form>  

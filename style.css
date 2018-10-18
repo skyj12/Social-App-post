@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  color:#18bbe0;
+  font-weight: bold;
+}
+body {
+    font-family: sans-serif; 
+    background-color: rgba(255, 255, 255, 0.815);
+  }
+  .posted {
+   border-bottom: 1px solid lightgray;
+  }
+  .new {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    padding: 9px;
+    border: balck solid 1px;
+    justify-content: center;
+  }
+  .close {
+    background-color: rgb(206, 210, 211);
+    border-radius: 10px;
+    outline: none;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-size: .8rem;
+  }
+  .allposts {
+  margin: 20px;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: 1px solid black;
+   border-radius: 5px;
+   padding-left: 10px;
+   padding:34px;
+}
+.newform {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+input, textarea {
+  outline: none;
+  border-radius:  5px;
+  margin: 15px auto;
+}
+
+.title {
+  width: 434px;
+  height: 20px;
+  padding: 5px;
+}
+
+.post {
+  width: 441px;
+  height: 213px;
+  padding: 5px;
+}
+
+h4 {
+  text-align: center;
+  padding: 10px;
+}
+.add{
+  width: 427px;
+   margin-left: 97px;
+  padding: 8px;
+}
+button.material-icons{
+  right: 467px;
+  float: right;
+  
+}
